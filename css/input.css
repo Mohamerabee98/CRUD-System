@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2e3a4b !important;
+    color: #fff !important;
+
+}
+
+input {
+    outline: none;
+    transition: all .4s;
+}
+
+input:hover {
+    transform: scale(1.1);
+}
+
+.total {
+    width: fit-content !important;
+}
+
+.total::before {
+    content: 'Total : ';
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.change {
+    background-color: #4D869C !important;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+table th {
+    text-transform: uppercase;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+}
