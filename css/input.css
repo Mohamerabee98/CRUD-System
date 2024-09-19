@@ -14,7 +14,7 @@ input {
     outline: none;
     transition: all .4s;
 }
-#tbody{
+#tbody ,.tabelRow{
     display: flex;
     flex-wrap: wrap;
 }
