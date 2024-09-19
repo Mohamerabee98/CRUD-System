@@ -14,7 +14,10 @@ input {
     outline: none;
     transition: all .4s;
 }
-
+#tbody{
+    display: flex;
+    flex-wrap: wrap;
+}
 input:hover {
     transform: scale(1.1);
 }
